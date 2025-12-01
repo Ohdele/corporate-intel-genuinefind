@@ -1,3 +1,6 @@
+# Final Corporate Intelligence Report for GenuineFind Ltd.
+This report summarizes discovered assets, employees, emails, profiles, job roles, document metadata, and hosting information for professional OSINT demonstration purposes.
+
 www.genuinefind.com
 api.genuinefind.com
 portal.genuinefind.com
