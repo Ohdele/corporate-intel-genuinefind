@@ -6,7 +6,7 @@ This project demonstrates a full corporate attack surface assessment for a ficti
 ## Objectives
 - Identify and catalog all company digital assets: domains, subdomains, email addresses, and GitHub profiles.
 - Simulate employee and identity mapping to demonstrate potential attack vectors.
-- Extract metadata from publicly available documents to identify sensitive information leaks.
+- Extract metadata from publicly available documents to identify potential information leaks.
 - Map hosting and cloud infrastructure to understand potential exposure points.
 - Compile all findings into a structured intelligence report suitable for security analysis and executive review.
 
@@ -18,11 +18,8 @@ This project demonstrates a full corporate attack surface assessment for a ficti
 5. **Reporting:** Consolidated all findings into [`final_intel_report.txt`](./final_intel_report.txt) to illustrate risk exposure and corporate visibility.
 
 ## Deliverables
-- [`company_profile.txt`](./company_profile.txt)
+- [`README.md`](./README.md)
 - [`outputs/proof_log_clean.txt`](./outputs/proof_log_clean.txt)
-- [`osint_map.txt`](./osint_map.txt)
-- [`pdf_metadata.txt`](./pdf_metadata.txt)
-- [`hosting_map.txt`](./hosting_map.txt)
 - [`final_intel_report.txt`](./final_intel_report.txt)
 
 ## Key Takeaways

@@ -1,42 +1,0 @@
-
-
-
-Do you want to install it? (N/y)yy 
-sudo apt install gh
-[sudo] password for dele: 
-Reading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                Installing:
-[32m  gh
-[0m
-Summary:
-  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 1225
-  Download size: 7,616 kB
-  Space needed: 35.5 MB / 63.3 GB available
-
-[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 gh amd64 2.46.0-3
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 gh amd64 2.46.0-3
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling/main amd64 gh amd64 2.46.0-3
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling/main amd64 gh amd64 2.46.0-3
-  Temporary failure resolving 'http.kali.org'
-[33m0% [Working][0m            [1;31mError: [0m[1mFailed to fetch http://http.kali.org/kali/pool/main/g/gh/gh_2.46.0-3_amd64.deb  Temporary failure resolving 'http.kali.org'[0m
-[1;31mError: [0m[1mUnable to fetch some archives, maybe run apt update or try with --fix-missing?[0m
-
-[?2004h]0;dele@kali: ~/corporate-intel-genuinefind[;32m┌──([1;34mdele㉿kali[;32m)-[[0;1m~/corporate-intel-genuinefind[;32m]
-[;32m└─[1;34m$[0m [7msudo apt update --fix-missing[27m
-[A[C[C[C[Csudo apt update --fix-missing
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling InRelease
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling InRelease
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Ign:1 http://http.kali.org/kali kali-rolling InRelease
-[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m            Err:1 http://http.kali.org/kali kali-rolling InRelease
-  Temporary failure resolving 'http.kali.org'
-[33m0% [Working][0m            Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 79%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 95%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%Reading package lists... 96%                             Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                [1m1225 packages can be upgraded. Run 'apt list --upgradable' to see them.
-[0m[1;33mWarning: [0m[1mFailed to fetch http://http.kali.org/kali/dists/kali-rolling/InRelease  Temporary failure resolving 'http.kali.org'[0m
-[1;33mWarning: [0m[1mSome index files failed to download. They have been ignored, or old ones used instead.[0m
-
-[?2004h]0;dele@kali: ~/corporate-intel-genuinefind[;32m┌──([1;34mdele㉿kali[;32m)-[[0;1m~/corporate-intel-genuinefind[;32m]
-[;32m└─[1;34m$[0m [7msudo nano /etc/resolv.conf[27m
-[A[C[C[C[Csudo nano /etc/resolv.conf
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h[?1049h[22;0;0t[1;26r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[24;41H(B[0;7m[ Reading... ](B[m[24;40H(B[0;7m[ Read 2 lines ](B[m[H(B[0;7m  GNU nano 8.6                           /etc/resolv.conf                                     [1;93H(B[m[25d(B[0;7m^G(B[m Help[25;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut[25;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[26d(B[0;7m^X(B[m Exit[26;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[2d[36m# Generated by NetworkManager[3d[39m(B[mnameserver 172.20.10.1[A[?12l[?25h[?25l[?12l[?25h[3d[?25l[1;59H(B[0;7m*[93G(B[m[3;23r[3;1HM[1;26r[4;1H[?12l[?25h[?25l[?12l[?25h[A[?25l7[3;24r8M[1;26r[3;1Hnameserver 8.8.8.8[4d[?12l[?25h[?25l[4;24r[24;1H
-[1;26r[3;19H[?12l[?25h[?25l[?12l[?25h[?25l[25;16H   (B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append        (B[0;7mM-B(B[m Backup File   (B[0;7m^T(B[m Browse[K[26;2H(B[0;7mC(B[m Cancel[16G   (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend       (B[0;7m^Q(B[m Discard buffer[K[25;82H[A(B[0;7mWrite to File: /etc/resolv.conf                                                               [24;32H(B[m[?12l[?25h[?25l[24;40H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7m [93G(B[m[24;39H(B[0;7m[ Wrote 3 lines ](B[m[25;16H(B[0;7m^O(B[m Write Out   (B[0;7m^F(B[m Where Is    (B[0;7m^K(B[m Cut         (B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location[26;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste       (B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line[?12l[?25h[3d[?25l[24d[J[26d[?12l[?25h[26;1H[?1049l[23;0;0t[?1l>[?2004l
-[?2004h]0;dele@kali: ~/corporate-intel-genuinefind[;32m┌──([1;34mdele㉿kali[;32m)-[[0;1m~/corporate-intel-genuinefind
