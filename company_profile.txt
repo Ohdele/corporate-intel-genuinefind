@@ -1,0 +1,12 @@
+Company Name: GenuineFind Ltd.
+Domain: genuinefind.com
+Subdomains:
+- www.genuinefind.com
+- api.genuinefind.com
+- portal.genuinefind.com
+
+Sample Employees:
+- Tunde Adeyemi – CEO – tunde.adeyemi@genuinefind.com
+- Sarah Okoro – HR – sarah.okoro@genuinefind.com
+- Michael Bassey – IT Support – michael.bassey@genuinefind.com
+- Adaeze Nwosu – DevOps – adaeze.nwosu@genuinefind.com
