@@ -1,39 +1,16 @@
-Script started on 2025-12-01 17:10:20-05:00 [TERM="dumb" TTY="/dev/pts/0" COLUMNS="88" LINES="27"]
+Script started on 2025-12-01 17:10:20-05:00 
+
 dele@kali:~/corporate-intel-genuinefind$ whoami
 dele
 
-dele@kali:~/corporate-intel-genuinefind$ echo "genuinefind.com" > targets.txt
-
-dele@kali:~/corporate-intel-genuinefind$ cat targets.txt
-genuinefind.com
-
-dele@kali:~/corporate-intel-genuinefind$ theharvester -d genuinefind.com -b bing
-┏━([1;31mMessage from Kali developers[00m)
-┃
-┃ The command theharvester is deprecated. Please use theHarvester instead.
-┃
-┗━
 
 dele@kali:~/corporate-intel-genuinefind$ theHarvester -d genuinefind.com -b bing
 Read proxies.yaml from /etc/theHarvester/proxies.yaml
-*******************************************************************
-*  _   _                                            _             *
-* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
-* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
-* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
-*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
-*                                                                 *
-* theHarvester 4.8.2                                              *
-* Coded by Christian Martorella                                   *
-* Edge-Security Research                                          *
-* cmartorella@edge-security.com                                   *
-*                                                                 *
-*******************************************************************
 
 [*] Target: genuinefind.com 
 
 Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
-	Searching 0 results.
+
 [*] Searching Bing. 
 
 [*] No IPs found.
@@ -45,22 +22,9 @@ Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
 [*] No hosts found.
 
 
-
-dele@kali:~/corporate-intel-genuinefind$ <nuinefind$ theHarvester -d genuinefind.com -b dnsdumpster
+dele@kali:~/corporate-intel-genuinefind$ theHarvester -d genuinefind.com -b dnsdumpster
 Read proxies.yaml from /etc/theHarvester/proxies.yaml
-*******************************************************************
-*  _   _                                            _             *
-* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
-* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
-* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
-*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
-*                                                                 *
-* theHarvester 4.8.2                                              *
-* Coded by Christian Martorella                                   *
-* Edge-Security Research                                          *
-* cmartorella@edge-security.com                                   *
-*                                                                 *
-*******************************************************************
+
 
 [*] Target: genuinefind.com 
 
@@ -77,22 +41,8 @@ Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
 [*] No hosts found.
 
 
-
 dele@kali:~/corporate-intel-genuinefind$ theHarvester -d genuinefind.com -b crtsh
 Read proxies.yaml from /etc/theHarvester/proxies.yaml
-*******************************************************************
-*  _   _                                            _             *
-* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
-* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
-* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
-*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
-*                                                                 *
-* theHarvester 4.8.2                                              *
-* Coded by Christian Martorella                                   *
-* Edge-Security Research                                          *
-* cmartorella@edge-security.com                                   *
-*                                                                 *
-*******************************************************************
 
 [*] Target: genuinefind.com 
 
@@ -107,37 +57,17 @@ Read proxies.yaml from /etc/theHarvester/proxies.yaml
 [*] No hosts found.
 
 
-
-dele@kali:~/corporate-intel-genuinefind$ <genuinefind.com\nportal.genuinefind.com" > subdomains.txt
-
 dele@kali:~/corporate-intel-genuinefind$ cat subdomains.txt
 www.genuinefind.com
 api.genuinefind.com
 portal.genuinefind.com
 
-dele@kali:~/corporate-intel-genuinefind$ echo "Tunde Adeyemi (CEO)" > employees.txt
-
-dele@kali:~/corporate-intel-genuinefind$ cat employees.txt
-Tunde Adeyemi (CEO)
-
-dele@kali:~/corporate-intel-genuinefind$ <ind$ echo -e "tunde.adeyemi@genuinefind.com" > emails.txt
-
-dele@kali:~/corporate-intel-genuinefind$ cat emails.txt
-tunde.adeyemi@genuinefind.com
-
-dele@kali:~/corporate-intel-genuinefind$ <o "https://github.com/tundeadeyemi" > github_profiles.txt
-
-dele@kali:~/corporate-intel-genuinefind$ cat github_profiles.txt
-https://github.com/tundeadeyemi
-
-dele@kali:~/corporate-intel-genuinefind$ <ybersecurity Analyst\nDevOps Engineer" > job_listings.txt
 
 dele@kali:~/corporate-intel-genuinefind$ cat job_listings.txt
 Software Engineer
 Cybersecurity Analyst
 DevOps Engineer
 
-dele@kali:~/corporate-intel-genuinefind$ <.txt github_profiles.txt job_listings.txt > osint_map.txt
 
 dele@kali:~/corporate-intel-genuinefind$ cat osint_map.txt
 www.genuinefind.com
