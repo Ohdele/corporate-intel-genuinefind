@@ -11,7 +11,7 @@ This project demonstrates a full corporate attack surface assessment for a ficti
 - Compile all findings into a structured intelligence report suitable for security analysis and executive review.
 
 ## Project Workflow
-1. **Asset Creation:** Defined company domain, subdomains, sample employees, emails, GitHub profiles, and job listings.
+1. **Assets:** Discovered company domain, subdomains, sample employees, emails, GitHub profiles, and job listings.
 2. **OSINT Mapping:** Simulated reconnaissance using `theHarvester` and other OSINT tools to build a comprehensive asset map.
 3. **Metadata Analysis:** Extracted and documented document metadata to identify potential information leaks.
 4. **Infrastructure Mapping:** Simulated cloud and hosting provider analysis.
@@ -22,5 +22,4 @@ This project demonstrates a full corporate attack surface assessment for a ficti
 - [`outputs/proof_log_clean.txt`](./outputs/proof_log_clean.txt)
 - [`final_intel_report.txt`](./final_intel_report.txt)
 
-## Key Takeaways
-This project demonstrates how attackers can gather intelligence on corporate targets before engaging in more intrusive activities. It highlights the importance of managing digital footprint, securing employee data, and controlling document metadata to reduce organizational risk.
+

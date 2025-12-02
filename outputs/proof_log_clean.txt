@@ -12,13 +12,9 @@ Read proxies.yaml from /etc/theHarvester/proxies.yaml
 Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
 
 [*] Searching Bing. 
-
 [*] No IPs found.
-
 [*] No emails found.
-
 [*] No people found.
-
 [*] No hosts found.
 
 
@@ -31,13 +27,9 @@ Read proxies.yaml from /etc/theHarvester/proxies.yaml
 Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
 
 [!] Missing API key for DNSDumpster. 
-
 [*] No IPs found.
-
 [*] No emails found.
-
 [*] No people found.
-
 [*] No hosts found.
 
 
@@ -45,16 +37,21 @@ dele@kali:~/corporate-intel-genuinefind$ theHarvester -d genuinefind.com -b crts
 Read proxies.yaml from /etc/theHarvester/proxies.yaml
 
 [*] Target: genuinefind.com 
-
 [*] Searching CRTsh. 
-
 [*] No IPs found.
-
 [*] No emails found.
-
 [*] No people found.
-
 [*] No hosts found.
+
+
+dele@kali:~/corporate-intel-genuinefind$ echo "Hosting: SimulatedCloudHost Inc." > hosting_map.txt
+dele@kali:~/corporate-intel-genuinefind$ cat hosting_map.txt
+Hosting: SimulatedCloudHost Inc.
+
+
+dele@kali:~/corporate-intel-genuinefind$ cat pdf_metadata.txt
+Created by GenuineFind Ltd.
+Author: Tunde Adeyemi
 
 
 dele@kali:~/corporate-intel-genuinefind$ cat subdomains.txt
